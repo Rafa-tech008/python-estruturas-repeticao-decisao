@@ -1,0 +1,22 @@
+#EST.DEC_LT01.23
+#Declaração de variáveis
+x:int=0
+y:int=0
+z:int=0
+r:int=0
+
+#Início
+x=int(input("O valor qualquer: "))
+y=int(input("Um valor maior que o anterior: "))
+z=int(input("Um valor maior que o anterior: "))
+r=int(input("Um valor qualquer: "))
+if(r<x<y<z):
+    print("A ordem é:",r,",",x,",",y,"e",z)
+elif(x<r<y<z):
+    print("A ordem é:",x,",",r,",",y,"e",z)
+elif(x<y<r<z):
+    print("A ordem é:",x,",",y,",",r,"e",z)
+else:
+    print("A ordem é:",x,",",y,",",z,"e",r)
+    
+#Fim
